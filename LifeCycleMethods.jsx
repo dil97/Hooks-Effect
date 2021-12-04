@@ -11,18 +11,7 @@ class LifeCycleMethods extends Component {
 
 
     }
-    componentDidMount(){
-        console.log("This is componentDidMount");
-    }
-    shouldComponentUpdate(){
-        console.log("This is shouldComponentUpdate");
-    }
-    componentDidUpdate(){
-        console.log("this is componentDidUpdate")
-    }
-    getSnapshotBeforeUpdate (){
-        console.log("This is getSnapshotBeforeUpdate")
-    }
+    
     // componentWillunmount (){
     //     console.log("This is componentWillmount")
     // }
